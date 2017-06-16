@@ -1,5 +1,7 @@
 package com.xd.commander.citylistdemo.pojo;
 
+import com.xd.commander.citylistdemo.utils.PinyinUtils;
+
 import java.util.List;
 
 /**
@@ -45,7 +47,12 @@ public class City {
         this.cities = cities;
     }
 
+
     public static class CitiesBean {
+        public CitiesBean(String name) {
+            this.name = name;
+        }
+
         /**
          * name : 东城
          */
@@ -58,6 +65,9 @@ public class City {
 
         public void setName(String name) {
             this.name = name;
+        }
+        public char getChar(){
+            return PinyinUtils.getPinyinFirstLetter(name).toCharArray()[0];
         }
     }
 }
