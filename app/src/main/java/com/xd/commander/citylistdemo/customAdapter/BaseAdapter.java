@@ -1,4 +1,4 @@
-package com.xd.commander.citylistdemo.adapter;
+package com.xd.commander.citylistdemo.customAdapter;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;

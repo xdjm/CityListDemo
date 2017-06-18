@@ -1,4 +1,4 @@
-package com.xd.commander.citylistdemo.adapter;
+package com.xd.commander.citylistdemo.customAdapter;
 
 import android.graphics.Canvas;
 import android.graphics.Rect;

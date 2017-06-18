@@ -1,4 +1,4 @@
-package com.xd.commander.citylistdemo.adapter;
+package com.xd.commander.citylistdemo.customAdapter;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
